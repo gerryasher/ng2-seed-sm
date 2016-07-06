@@ -1,17 +1,17 @@
-import { Component } from 'angular2/core';
+import { Component } from '@angular/core';
 
 // additional imports
 
 @Component({
     selector: 'gasher-app',
     template: `
-    <div>
-      <h1>{{pageTitle}}</h1>
-    </div>
+        <div>
+            <h1>{{pageTitle}}</h1>
+        </div>
     ` ,
     directives: [],
     providers: []
 })
 export class AppComponent {
-    pageTitle: string = 'Gasher Seed Application';
+    pageTitle: string = 'Gasher Seed App';
 }
